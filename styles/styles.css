@@ -1,0 +1,35 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#timer {
+    background-color: cornflowerblue;
+    width: 360px;
+    height: 300px;   
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title
+{
+    
+}
+
+#time {
+    
+}
+
+#btns {
+    
+}
