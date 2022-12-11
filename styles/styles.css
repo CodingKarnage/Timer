@@ -40,7 +40,11 @@ body{
 }
 
 #time p{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
 }
 
 #btns {
