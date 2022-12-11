@@ -96,7 +96,7 @@ button:hover {
     border-left: none;
 }
 
-.label {
+/*.label {
     background-color: var(--textgold);
     height: 25px;
     width: 50px;
@@ -130,3 +130,4 @@ img {
 .checkbox:checked + .label .ball {
     transform: translateX(20px);
 }
+*/
