@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script defer src="./scripts/script.js"></script>
     <title>Timer</title>
 </head>
 <body>
@@ -15,15 +16,15 @@
             </div>
             <div id="time">
                 <p>
-                    <span class="mins">00</span> :
-                    <span class="secs">00</span> :
-                    <span class="msecs">00</span>
+                    <span class="mins">--</span> :
+                    <span class="secs">--</span> :
+                    <span class="msecs">--</span>
                 </p>
             </div>
             <div id="btns">
-                <button class="actn-btn">Start</button>
-                <button class="actn-btn">Stop</button>
-                <button class="actn-btn">Reset</button>
+                <button class="actn-btn" onclick="startTimer()">Start</button>
+                <button class="actn-btn" onclick="stopTimer()">Stop</button>
+                <button class="actn-btn" onclick="resetTimer()">Reset</button>
             </div>
         </div>
     </div>
